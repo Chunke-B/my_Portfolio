@@ -236,11 +236,13 @@ position: relative;
     display: flex;
 }
 .last-foot{
-    position: relative;
-    left: 0px;
+   
     color: var(--color-brand);
-    text-align: center;
+   
 
+}
+.hey{
+    display: flex;
 }
 
 .clearfix::after {
