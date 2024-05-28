@@ -9,7 +9,12 @@
     --color-brand2: #deff58;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
-    --color-butns:#e9f8ae;; 
+    --color-butns:#eaefd3;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -35,14 +40,13 @@ a:hover {
 
 img {
     width: 100%;
-    height: 150px;
-    
+    /* height: 170px; */
+}
+.profile-img{
+    width: 170px;
+    height: 170px;
 
 }
-img:hover{
-    size: 600px;
-}
-
 
 .text-brand {
     color: var(--color-brand);
@@ -125,20 +129,6 @@ img:hover{
     padding: 12px 28px;
     font-weight: 700;
 }
-.butns{
-    margin-top: 15px;
-    font-size: 18px;
-    padding: 14px 16px;
-    border: 1px solid var(--color-brand);
-    border-radius: 27px;
-    color: var(--color-base);
-}
-.butns:hover{
-    background: linear-gradient(to right, var(--color-brand2), var(--color-butns));
-    color: var(--color-base);
-    font-size: 21px;
-
-}
 
 .btn-brand {
     background-color: var(--color-brand);
@@ -207,9 +197,9 @@ img:hover{
 }
 
 /* SOCIAL ICONS */
-.social-icons {
+/* .social-icons {
 
-}
+} */
 
 .social-icons a {
     width: 40px;
@@ -222,7 +212,59 @@ img:hover{
     font-size: 24px;
 }
 
-.workrow{
+/* *FOOTER */
+.last-side{
+background-color: var(--color-base);
+position: relative;
+}
+
+.nav-items{
+    text-decoration: none;
+    display: inline-block ;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 40px;
+    position: relative;
+    left: 80px;
+   
+    
+    /* height: auto; */
+}
+
+.nav-links{
+    display: flex;
+}
+.last-foot{
+    position: relative;
+    left: 0px;
+    color: var(--color-brand);
+    text-align: center;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* .workrow{
     width: 400px;
     row-gap: 3rem;
+} */
+
+.butns{
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 14px 16px;
+    border: 1px solid var(--color-brand);
+    border-radius: 27px;
+    color: var(--color-base);
+}
+.butns:hover{
+    background: linear-gradient(to right, var(--color-brand2), var(--color-butns));
+    color: var(--color-base);
+    font-size: 21px;
+
 }
