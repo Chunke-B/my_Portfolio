@@ -263,10 +263,26 @@ position: relative;
     border: 1px solid var(--color-brand);
     border-radius: 27px;
     color: var(--color-base);
+    background: linear-gradient(to right, var(--color-brand2), var(--color-butns));
 }
 .butns:hover{
-    background: linear-gradient(to right, var(--color-brand2), var(--color-butns));
+    background: linear-gradient(to left, var(--color-brand2), var(--color-butns));
     color: var(--color-base);
-    font-size: 21px;
+   
 
+}
+.third-pro{
+    justify-content: center;
+    display: inline-block;
+}
+
+/* eduaction-graduation */
+.icon-large{
+    height: 50px;
+    width: 50px;
+    
+}
+.icon-hover:hover{
+    font-size: 20px;
+    color: #b6cbce;
 }
